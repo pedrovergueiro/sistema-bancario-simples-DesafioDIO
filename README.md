@@ -1,13 +1,8 @@
-# Sistema Bancário Simples — DIO
+# Sistema Bancário — DIO
 
-Solução que desenvolvi para o desafio de sistema bancário da DIO. É um programa de linha de comando que simula operações básicas de um banco.
+Desafio da DIO que simula um sistema bancário de linha de comando. Depósito, saque com limite diário e extrato.
 
-Parece simples (e é), mas foi um dos primeiros projetos que fiz onde precisei pensar em regras de negócio reais — limite de saques, extrato, validações. Esse tipo de exercício foi fundamental no começo.
-
-## Funcionalidades
-- Depósito
-- Saque (com limite diário)
-- Extrato
+Foi um dos primeiros projetos onde precisei pensar em regras de negócio — não só em "como fazer funcionar", mas em "o que acontece se o saldo for insuficiente?" ou "e se o limite de saques do dia já foi atingido?". Esse tipo de raciocínio foi o que mais ficou.
 
 ## Stack
 Python
